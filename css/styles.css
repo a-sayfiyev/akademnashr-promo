@@ -1,3 +1,10 @@
+body {
+font-size: 16px;
+line-height: 1.5;
+font-family: "Roboto", sans-serif;
+letter-spacing: 0.5px;
+}
+
 /* SITE-HEADER */
 .site-header {
   background-color: #fff;
@@ -32,8 +39,8 @@
 
 /* HERO */
 .hero {
-background-color: #252420;
-color: #fff;
+  background-color: #252420;
+  color: #fff;
 }
 
 .hero-content {
@@ -41,15 +48,15 @@ color: #fff;
 }
 
 .orange-line {
-width: 80px;
-height: 3px;
-background-color: #ff7500;
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
 }
 
 .hero-heading {
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 .hero-img {
@@ -57,19 +64,13 @@ letter-spacing: 0.5px;
   height: 510px;
 }
 
-.hero-text {
-  font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.5px;
-}
-
-
 /* FEATURES */
 .features-heading {
   width: 440px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 
 
@@ -85,15 +86,9 @@ letter-spacing: 0.5px;
 }
 
 .feature-title {
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
-
-.feature-info {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.5px;
 }
 
 
@@ -108,23 +103,21 @@ letter-spacing: 0.5px;
 }
 
 .promo-heading {
-font-size: 40px;
-line-height: 48px;
-}
-
-.promo-text {
-font-size: 16px;
-line-height:1.5;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
 }
 
 .promo-highlight {
+  font-weight: 700;
   color: #ff7500;
 }
 
 .promo-img {
   width: 440px;
-height: 440px;
-object-fit: cover;
+  height: 440px;
+  object-fit: cover;
 }
 
 
@@ -139,16 +132,15 @@ object-fit: cover;
 
 .site-footer-divider {
   background-color: rgba(37, 36, 32, 0.5);
-height: 2px;
+  height: 2px;
 }
 
 .site-footer-links {
   width: 224px;
+  line-height: 19px;
 }
 
 .site-footer-links a {
-  font-size: 16px;
-  line-height: 19px;
   color: #252420;
   text-decoration: none;
 }
