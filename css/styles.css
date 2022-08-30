@@ -13,6 +13,9 @@ body {
 /* SITE-HEADER */
 .site-header {
   background-color: #fff;
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,6 +42,7 @@ body {
 .sitenav-list {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .sitenav-link {
@@ -61,11 +65,16 @@ body {
   opacity: 0.6;
 }
 
+
 /* MAIN-LINK */
 .main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   color: #fff;
   background-color: #ff7500;
   font-size: 13px;
+  font-weight: bold;
   line-height: 15px;
   text-decoration: none;
   transition: opacity 0.4s ease;
@@ -86,6 +95,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .hero-content {
@@ -96,6 +107,7 @@ body {
   width: 80px;
   height: 3px;
   background-color: #ff7500;
+  border: none;
 }
 
 .hero-heading {
@@ -107,9 +119,15 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 /* FEATURES */
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+
 .features-heading {
   width: 440px;
   font-family: "Roboto Condensed", sans-serif;
@@ -123,16 +141,21 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding: 0;
 }
 
-/* FEATURE */
+/* FEATURES */
 .feature {
   width: 340px;
 }
 
 .feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -147,6 +170,7 @@ body {
 .promo {
   background-color: #252420;
   color: #fff;
+ border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -172,11 +196,14 @@ body {
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 
 /* SITE-FOOTER */
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 
@@ -188,11 +215,13 @@ body {
 
 .site-footer ul {
   list-style: none;
+  padding: 0;
 }
 
 .site-footer-socials {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .site-footer-socials a {
@@ -210,6 +239,7 @@ body {
 
 .site-footer-divider {
   background-color: rgba(37, 36, 32, 0.5);
+  border: none;
   height: 2px;
 }
 
